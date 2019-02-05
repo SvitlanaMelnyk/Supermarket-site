@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!--
+	TP final
+	Thématique : Site de supermarché
+	Auteur : Melnyk Svitlana
+	Date : Décembre 2017
+-->
+<head>
+    <meta charset="utf-8">
+    <title>Site de supermarché</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- Entête de la page -->
+    <nav class="navbar sticky-top navbar-inverse bg-inverse">
+        <div class="container">
+            <ul class="nav d-flex flex-column flex-lg-row justify-content-between">
+                <li class="p-2"><a href="#"><i class="fa fa-phone-square" aria-hidden="true">  1-800-465-2139</i></a></li>
+                <li class="p-2"><a href="#"><i class="fa fa-commenting-o" aria-hidden="true">  Écrivez-nous maintenant</i></a></li>
+                <li class="p-2"><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Se connecter</a></li>
+                <li class="p-2"><a href="#"><i class="fa fa-list-alt" aria-hidden="true"></i> Ma liste</a></li>
+                <li class="p-2"><a href="#"><i class="fa fa-user-o ml-auto" aria-hidden="true"> Mon compte</i></a></li>
+                <li class="p-2"><a href="#"> EN</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-toggleable-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mb-5"></span>
+            </button>
+
+            <!-- Logo -->
+            <a class="navbar-brand ml-5 mr-5" href="index.html">Q-VERT<br><h6><i>Toujour frais!</i></h6></a>
+
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav text-nowrap">
+                    <li class="nav-item mr-5"><a class="nav-link" href="index.html">Épicerie en ligne</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link" href="Recettes.html">Recettes</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link disabled" href="#">Circulaire et coupons</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link disabled" href="#">Nouvelles</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link" href="Nous_joindre.html">Nous joindre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Le corps de la page -->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.7950433447754!2d-73.60585134501659!3d45.47393248108342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc910a4eeac20d9%3A0x3071b1016ea7a0e2!2s2001+Avenue+de+Marlowe%2C+Montr%C3%A9al%2C+QC+H4A+3L4!5e0!3m2!1sen!2sca!4v1504288018264" width="1110"
+                            allowfullscreen></iframe>
+                </div><br>
+                    <p><strong>Adresse</strong></p>
+                    <p>2001, avenue de Marlowe, Montréal (Québec) H4A 3L4<br>
+                        Téléphone: 514-714-7830</p>
+                    <p><strong>Avez-vous des questions? Remplissez ce formulaire, s'il vous plaît et nous vous
+                        contacterons!</strong></p>
+            </div>
+        </div>
+    </div>
+
+        <!-- Formulaire-->
+            <div class="container">
+                <div class="row">
+                    <form>
+                        <div class="form-group">
+                            <label for="text" class="col-2 col-form-label">Nom</label>
+                            <div class="col-6">
+                                <input class="form-control" type="text" value="Melnyk" id="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="text-input" class="col-2 col-form-label">Prénom</label>
+                            <div class="col-6">
+                                <input class="form-control" type="text" value="Svitlana" id="text-input">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail1" class="col-2 col-form-label">Courriel</label>
+                            <div class="col-6">
+                                <input class="form-control" type="email" value="svitmelnykd@example.com" id="inputEmail1">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="tel-input" class="col-2 col-form-label">Telephone</label>
+                            <div class="col-6">
+                                <input class="form-control" type="tel" value="1-(555)-555-5555" id="tel-input">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea" class="col-2 col-form-label">Message</label>
+                            <div class="col-6">
+                                <textarea class="form-control" type="text" id="textarea" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button type="submit" class="btn">Envoyez!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+</section>
+
+<!-- Le pied de la page-->
+<footer>
+    <nav class="navbar navbar-inverse bg-inverse">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-md-left">
+                    <div class="nav navbar-text">
+                        <div>
+                            <h5><a href="#" title="link">En ligne</a></h5>
+                            <small><a href="#" title="link">Épicerie en ligne</a></small><br>
+                            <small><a href="#" title="link">Recettes</a></small><br>
+                            <small><a href="#" title="link">Circulaire et coupons</a></small><br>
+                            <small><a href="#" title="link">Nouvelles</a></small><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-md-left">
+                    <div class="nav navbar-text">
+                        <h5><a href="#" title="link">Notre offre</a></h5>
+                        <small><a href="#" title="link">Produits</a></small><br>
+                        <small><a href="#" title="link">Nos services</a></small><br>
+                        <small><a href="#" title="link">Nos cartes-cadeaux</a></small><br>
+                        <small><a href="#" title="link">Nos partenaires</a></small><br>
+                    </div>
+                </div>
+                <div class="col-md-3 text-md-left">
+                    <div class="nav navbar-text">
+                        <h5><a href="#" title="link">Découvrez-nous</a></h5>
+                        <small><a href="#" title="link">À propos de nous</a></small><br>
+                        <small><a href="#" title="link">Conditions générales</a></small><br>
+                        <small><a href="#" title="link">Politique de confidentialité</a></small><br>
+                    </div>
+                </div>
+                <div class="col-md-3 text-md-left">
+                    <div class="nav navbar-text">
+                        <h5><a href="#" title="link">Emplois</a></h5>
+                        <small><a href="#" title="link">Emplois en magasin</a></small><br>
+                        <small><a href="#" title="link">Faire carrière au siège social</a></small><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Copyright: Melnyk-2017</p>
+    </nav>
+</footer>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
